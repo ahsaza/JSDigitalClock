@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+#clock {
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seconds {
+    margin-right: 5px;
+}
+
+#am, #pm {
+    display: none;
+}
